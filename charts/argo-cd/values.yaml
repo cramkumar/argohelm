@@ -1,4 +1,6 @@
 argo-cd:
+  crds:
+    install: false
   dex:
     enabled: false
   notifications:
