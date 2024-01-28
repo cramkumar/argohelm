@@ -1,4 +1,4 @@
-argo-cd:
+argo-inst:
   crds:
     install: false
   dex:
