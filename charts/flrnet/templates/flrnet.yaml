@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: floornet
+  name: flrnet
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
     repoURL: https://github.com/cramkumar/argohelm.git
-    path: charts/floornet/
+    path: charts/flrnet/
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
